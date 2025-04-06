@@ -1,7 +1,9 @@
 Useful commands:
-* get pods:
+* get pods, namespaces, pvcs, services:
 ```bash
-  kubectl get pods
+  kubectl get pods -n <namespace>
+  kubectl get pvc -n <namespace>
+  kubectl get services -n <namespace>
   ```
 * apply changes:
 ```bash
